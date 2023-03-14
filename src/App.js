@@ -45,6 +45,7 @@ function App() {
           </ul>
         </Menu>
         <iframe
+          title="Driivz fleet portal"
           src="https://gronnkontakt-pp.driivz.com:8443/dashboard"
           width={window.innerWidth - 258}
           height={window.innerHeight}
