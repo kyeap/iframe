@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import styled from "styled-components";
 
@@ -11,16 +10,6 @@ const Container = styled.div`
     "header header"
     "menu main"
     "footer footer";
-`;
-
-const ContentContainer = styled.main`
-  grid-area: main;
-  padding: 2rem 1rem;
-  overflow: hidden;
-
-  @media screen and (min-width: 768px) {
-    padding: 2rem 3.5rem;
-  }
 `;
 
 const Header = styled.div`
